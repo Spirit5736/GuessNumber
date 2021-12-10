@@ -23,6 +23,7 @@
         android:id="@+id/imageView2"
         android:layout_width="269dp"
         android:layout_height="275dp"
+        android:layout_marginBottom="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

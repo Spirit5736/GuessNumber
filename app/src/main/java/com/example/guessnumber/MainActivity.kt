@@ -1,5 +1,6 @@
 package com.example.guessnumber
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -90,5 +91,11 @@ class MainActivity : AppCompatActivity() {
             return null
         }
         return  guessAsInt
+    }
+
+
+    fun onSecondPage (view: View) {
+        val onSecondPageIntent = Intent (this, AboutActivity ::class.java)
+        startActivity(onSecondPageIntent)
     }
 }
